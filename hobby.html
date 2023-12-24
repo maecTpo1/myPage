@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My awesom Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="other/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="other/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="other/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 50%;
+        width: 60%;
+        margin: auto;
+      }
+    </style>
+    <!--CSS правила-->
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="index.html"
+          ><img src="other/AB (1).png" alt="logo" width="40"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Переключатель навигации"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Главная</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">my hobby</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g5">
+        <!-- выставление ширины столбца для разных размеров экрана -->
+        <div class="col">
+          <div class="card">
+            <img src="other/mycar.png" class="card-img-top" alt="My car" />
+            <div class="card-body">
+              <h5 class="card-title">My car</h5>
+              <p class="card-text">
+                This is my car. BMW E32. I've been restoring for 7 years now.
+                practically restored from the ashes. to learn more about the
+                process, follow the link.
+              </p>
+              <a
+                href="https://www.drive2.ru/users/maectpo1/"
+                target="_blank"
+                class="btn btn-primary"
+                >DRIVE2</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="other/football.jpg"
+              width="600"
+              height="205"
+              class="card-img-top"
+              alt="football"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Play football</h5>
+              <p class="card-text">
+                I also love football very much. I've been doing it since I was a
+                kid at school. I used to be a goalkeeper, but now I'm a
+                midfielder. We play on Mondays with my colleagues.
+              </p>
+              <a
+                href="https://www.dfb.de/index/"
+                target="_blank"
+                class="btn btn-primary"
+                >My favorite team</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="other/walk.jpg"
+              height="205"
+              class="card-img-top"
+              alt="walking"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Walk</h5>
+              <p class="card-text">
+                I really like to walk. I especially love Gorky Park. Various
+                events are held there very often, and in winter you can ride one
+                of the largest ice rinks in Moscow.
+              </p>
+              <a
+                href="https://park-gorkogo.ru/"
+                target="_blank"
+                class="btn btn-primary"
+                >Gorky Park</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
